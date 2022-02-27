@@ -13,6 +13,8 @@
 		A232E46F27CC195C00391D72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A232E45D27CC195B00391D72 /* ContentView.swift */; };
 		A232E47027CC195C00391D72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A232E45E27CC195C00391D72 /* Assets.xcassets */; };
 		A232E47127CC195C00391D72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A232E45E27CC195C00391D72 /* Assets.xcassets */; };
+		A232E47B27CC233900391D72 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = A232E47A27CC233900391D72 /* start.txt */; };
+		A232E47C27CC233900391D72 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = A232E47A27CC233900391D72 /* start.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,7 @@
 		A232E46327CC195C00391D72 /* WordScramble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordScramble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A232E46927CC195C00391D72 /* WordScramble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordScramble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A232E46B27CC195C00391D72 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		A232E47A27CC233900391D72 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,7 @@
 			children = (
 				A232E45C27CC195B00391D72 /* WordScrambleApp.swift */,
 				A232E45D27CC195B00391D72 /* ContentView.swift */,
+				A232E47A27CC233900391D72 /* start.txt */,
 				A232E45E27CC195C00391D72 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -158,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A232E47027CC195C00391D72 /* Assets.xcassets in Resources */,
+				A232E47B27CC233900391D72 /* start.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A232E47127CC195C00391D72 /* Assets.xcassets in Resources */,
+				A232E47C27CC233900391D72 /* start.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
